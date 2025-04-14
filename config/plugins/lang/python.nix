@@ -14,7 +14,7 @@
       lintersByFt.python = [ "mypy" ];
       linters.mypy = {
         cmd = lib.getExe pkgs.mypy;
-        args = [ "--ignore-missing-imports" ];
+        # args = [ "--ignore-missing-imports" ];
       };
     };
 
@@ -23,10 +23,10 @@
         enable = true;
         extraOptions.settings = {
           # Using Ruff's import organizer
-          pyright.disableOrganizeImports = true;
+          # pyright.disableOrganizeImports = true;
           python.analysis = {
             # Ignore all files for analysis to exclusively use Ruff for linting
-            ignore.__raw = ''{ '*' }'';
+            # ignore.__raw = ''{ '*' }'';
           };
         };
       };

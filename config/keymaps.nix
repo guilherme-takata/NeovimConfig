@@ -2,6 +2,16 @@
   globals.mapleader = " ";
 
   keymaps = [
+
+    # Tabs
+
+    {
+      mode = "n";
+      key = "<leader>bd";
+      action = "<cmd>bd<cr>";
+      options.desc = "Close current buffer";
+    }
+
     # Windows
     {
       mode = "n";

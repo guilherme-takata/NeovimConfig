@@ -14,7 +14,7 @@
       lintersByFt.python = [ "mypy" ];
       linters.mypy = {
         cmd = lib.getExe pkgs.mypy;
-        # args = [ "--ignore-missing-imports" ];
+        args = [ "--disable-error-code=import-untyped" ];
       };
     };
 

@@ -89,7 +89,7 @@
     {
       mode = [ "n" ];
       action = ":DapContinue<cr>";
-      key = "<leader>dc";
+      key = "<F5>";
       options = {
         desc = "Continue";
       };
@@ -97,7 +97,7 @@
     {
       mode = [ "n" ];
       action = ":DapStepOver<cr>";
-      key = "<leader>dO";
+      key = "<F1>";
       options = {
         desc = "Step over";
       };
@@ -105,7 +105,7 @@
     {
       mode = [ "n" ];
       action = ":DapStepInto<cr>";
-      key = "<leader>di";
+      key = "<F2>";
       options = {
         desc = "Step Into";
       };

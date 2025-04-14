@@ -1,8 +1,5 @@
 {
   imports = [
-    ./ai/avante.nix
-    ./ai/copilot.nix
-    ./ai/codeium.nix
 
     ./completion/blink.nix
     ./completion/cmp.nix
@@ -26,6 +23,7 @@
     ./telescope
 
     ./git/gitsigns.nix
+    ./git/lazygit.nix
 
     ./lsp/conform.nix
     ./lsp/fastaction.nix

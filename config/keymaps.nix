@@ -8,7 +8,7 @@
     {
       mode = "n";
       key = "<leader>bd";
-      action = "<cmd>bd<cr>";
+      action = "<cmd>b#|bd#<cr>";
       options.desc = "Close current buffer";
     }
 

@@ -2,8 +2,8 @@
   colorschemes = {
     nightfox = {
       enable = true;
+      flavor = "carbonfox";
       settings = {
-        flavor = "carbonfox";
         transparent_background = true;
         dim_inactive = true;
       };

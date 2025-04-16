@@ -1,5 +1,5 @@
 {
   imports = [
-    ./kanagawa.nix
+    ./nightfox.nix
   ];
 }

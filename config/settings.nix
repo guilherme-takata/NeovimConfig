@@ -7,7 +7,7 @@
       vim.fn.sign_define("diagnosticsigninfo", { text = " ", texthl = "diagnosticinfo", linehl = "", numhl = "" })
     '';
 
-    # feature that enhances the way Neovim loads and executes Lua modules, 
+    # feature that enhances the way Neovim loads and executes Lua modules,
     # offering improved performance and flexibility.
     luaLoader.enable = true;
 
@@ -75,6 +75,7 @@
 
       # Maximum number of items to show in the popup menu (0 means "use available screen space")
       pumheight = 0;
+      background = "";
 
     };
 

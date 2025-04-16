@@ -18,6 +18,9 @@
     };
 
     defaultComponentConfigs = {
+      ident = {
+        with_expanders = true;
+      };
       gitStatus = {
         symbols = {
           added = icons.git.LineAdded;

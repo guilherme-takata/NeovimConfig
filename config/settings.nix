@@ -21,7 +21,7 @@
 
       # Enable relative line numbers
       number = true;
-      relativenumber = true;
+      relativenumber = false;
 
       # Tab spacing 2 spaces
       tabstop = 2;
@@ -75,7 +75,6 @@
 
       # Maximum number of items to show in the popup menu (0 means "use available screen space")
       pumheight = 0;
-      background = "";
 
     };
 
@@ -98,9 +97,9 @@
         g.neovide_transparency = 0.8
 
         -- Neovide Fonts
-        o.guifont = "MonoLisa Trial:Medium:h15"
+        -- o.guifont = "MonoLisa Trial:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
-        -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
+        o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
         -- o.guifont = "FiraMono Nerd Font:Medium:h14"
         -- o.guifont = "CaskaydiaCove Nerd Font:h14:b:i"
         -- o.guifont = "BlexMono Nerd Font Mono:h14:Medium:i"

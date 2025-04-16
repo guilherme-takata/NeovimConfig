@@ -19,7 +19,7 @@
 
     defaultComponentConfigs = {
       indent = {
-        with_expanders = true;
+        withExpanders = true;
       };
       gitStatus = {
         symbols = {

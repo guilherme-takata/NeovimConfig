@@ -18,7 +18,7 @@
     };
 
     defaultComponentConfigs = {
-      ident = {
+      indent = {
         with_expanders = true;
       };
       gitStatus = {

@@ -8,7 +8,7 @@
   plugins = {
     telescope = {
       enable = true;
-      highlightTheme = "Catppuccin Macchiato";
+      highlightTheme = "Nightfox Carbonfox";
       extensions = {
         fzf-native.enable = true;
         ui-select = {

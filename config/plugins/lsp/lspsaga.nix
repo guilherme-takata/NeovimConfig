@@ -9,7 +9,7 @@
         openLink = "gx";
       };
       symbolInWinbar = {
-        enable = true; # Breadcrumbs
+        enable = false; # Breadcrumbs
         showFile = false;
       };
 
@@ -118,6 +118,14 @@
       options = {
         desc = "Line Diagnostics";
         silent = true;
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>gr";
+      action = "<cmd>Telescope lsp_references<CR>";
+      options = {
+        desc = "Search references";
       };
     }
     {

@@ -18,7 +18,7 @@
     };
     lint.enable = true;
 
-    lsp-signature.enable = true;
+    lsp-signature.enable = false;
     lsp-lines.enable = true;
   };
 

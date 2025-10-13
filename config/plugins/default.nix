@@ -10,10 +10,12 @@
 
     ./editor/lz-n.nix
     ./editor/neotree.nix
+    ./editor/snacks.nix
     ./editor/undotree.nix
     ./editor/whichkey.nix
     ./editor/yanky.nix
     ./editor/yazi.nix
+    ./editor/smear_cursor.nix
 
     ./theme
     ./luasnip

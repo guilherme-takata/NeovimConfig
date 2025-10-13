@@ -1,6 +1,6 @@
 {
   plugins = {
-    dap-virtual-text.enable = true;
+    dap-virtual-text.enable = false;
     dap = {
       enable = true;
       signs = {

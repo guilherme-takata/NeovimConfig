@@ -1,7 +1,7 @@
 { icons, ... }:
 {
   plugins.neo-tree = {
-    enable = true;
+    # enable = true;
     closeIfLastWindow = true;
     sources = [
       "filesystem"
@@ -36,8 +36,10 @@
       };
     };
 
-    window.mappings = {
-      "<space>" = "none";
+    window = {
+      mappings = {
+        "<space>" = "none";
+      };
     };
   };
 

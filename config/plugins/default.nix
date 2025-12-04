@@ -10,7 +10,6 @@
 
     ./editor/lz-n.nix
     ./editor/neotree.nix
-    ./editor/snacks.nix
     ./editor/undotree.nix
     ./editor/whichkey.nix
     ./editor/yanky.nix
@@ -73,5 +72,7 @@
     ./util/persistence.nix
     ./util/project-nvim.nix
     ./util/package-info.nix
+
+    # ./editor/snacks_explorer.nix
   ];
 }

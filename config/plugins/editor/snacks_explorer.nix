@@ -8,15 +8,17 @@
         enabled = true;
         replace_netrw = true;
       };
-      animate.enabled = true;
       picker = {
         sources = {
           explorer = {
             layout = {
               preset = "sidebar";
-              preview = false;
-              width = 10;
-              min_width = 5;
+              preview = "false";
+              layout = {
+                width = 0.2;
+                min_width = 0.2;
+                position = "left";
+              };
             };
           };
         };

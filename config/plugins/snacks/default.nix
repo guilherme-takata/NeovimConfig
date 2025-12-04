@@ -10,6 +10,8 @@
     ./bufdelete.nix
     ./gitbrowse.nix
     ./lazygit.nix
+    ./picker.nix
+    # ./explorer.nix
   ];
   extraConfigLuaPre = lib.mkOrder 1 (
     lib.optionalString

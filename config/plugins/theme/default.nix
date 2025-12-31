@@ -2,8 +2,8 @@
   imports = [
     # ./nightfox.nix
     # ./pywal.nix
-    ./tokyonight.nix
+    # ./tokyonight.nix
     # ./catpuccing.nix
-    # ./onedark.nix
+    ./onedark.nix
   ];
 }

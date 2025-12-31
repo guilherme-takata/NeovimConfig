@@ -4,15 +4,22 @@
   plugins = {
     conform-nvim.settings = {
       formatters_by_ft = {
-        javascript = [ "eslint_d" ];
-        javascriptreact = [ "eslint_d" ];
-        typescript = [ "eslint_d" ];
-        typescriptreact = [ "eslint_d" ];
-        svelte = [ "eslint_d" ];
+        javascript = [
+          "prettier"
+        ];
+        # javascriptreact = [ "eslint_d" ];
+        typescript = [
+          "prettier"
+        ];
+        # typescriptreact = [ "eslint_d" ];
+        # svelte = [ "eslint_d" ];
       };
 
       formatters.eslint_d = {
         command = lib.getExe pkgs.eslint_d;
+      };
+      formatters.prettier = {
+        command = lib.getExe pkgs.prettier;
       };
     };
 
@@ -21,7 +28,7 @@
 
       settings = {
         settings = {
-          code_lens = "off";
+          code_lens = "on";
           complete_function_calls = false;
           disable_member_code_lens = true;
           expose_as_code_action = "all";
@@ -43,7 +50,7 @@
     };
 
     lsp.servers = {
-      svelte.enable = true;
+      svelte.enable = false;
 
       eslint = {
         enable = true;

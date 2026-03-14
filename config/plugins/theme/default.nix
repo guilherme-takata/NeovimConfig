@@ -4,6 +4,7 @@
     # ./pywal.nix
     # ./tokyonight.nix
     # ./catpuccing.nix
-    ./onedark.nix
+    # ./onedark.nix
+    ./cyberdream.nix
   ];
 }

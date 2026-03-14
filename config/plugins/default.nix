@@ -44,6 +44,7 @@
     ./lang/shell.nix
     ./lang/typescript.nix
     ./lang/yaml.nix
+    ./lang/terraform.nix
 
     ./treesitter/treesitter.nix
     ./treesitter/treesitter-textobjects.nix
